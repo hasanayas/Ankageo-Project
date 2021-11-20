@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="awebsite.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
+</head>
+
+<body>
+    <div class="ust">
+        <img src="logo.png" class="picture">
+    </div>
+
+    <!-- ORTA TARAF -->
+    <div class="orta">
+
+        <!-- SOL TARAF -->
+
+        <div class="sol">
+            <div class="solust">
+                <div id="solustId">ID</div>
+                <div id="idData"></div>
+            </div>
+
+            <div class="solorta">
+                <div class="solsol">
+                    <div class="yazilar">Name</div>
+                    <div class="yazilar">Surname</div>
+                    <div class="yazilar">N.I.N</div>
+                    <div class="yazilar ">Phone</div>
+                </div>
+
+                <div class="solsag">
+                    <div class="solsaggiris"><input type="text" id="name" autocomplete="off" class="crsr"> </div>
+                    <div class="solsaggiris"><input type="text" id="surname" class="crsr"></div>
+                    <div class=" solsaggiris"> <input type="text" id="tc" class="crsr"></div>
+                    <div class="solsaggiris"><input type="number" id="number" class="crsr"> </div>
+                </div>
+            </div>
+
+            <div class="solalt">
+                <button class="sendButton crsr" onclick="createItem();
+                        //  createItemDeleteWords();
+                         ">Send</button>
+            </div>
+        </div>
+
+        <!-- SAĞ TARAF  -->
+
+        <div class="sag">
+            <div class="sagust">
+                <div id="sagUstID"> <b>ID</b></div>
+                <div class="sagUstDiv"><input type="text" id="showId" disabled></div>
+            </div>
+
+            <div class="sagorta">
+                <div class="sagsol">
+                    <div class="yazilar2">Name</div>
+                    <div class="yazilar2">Surname</div>
+                    <div class="yazilar2">N.I.N</div>
+                    <div class="yazilar2">Phone</div>
+                </div>
+
+                <div class="sagsag">
+                    <div class="sagsaggiris"><input type="text" id="namee" class="crsr"></div>
+                    <div class="sagsaggiris"><input type="text" id="surnamee" class="crsr">
+                    </div>
+                    <div class=" sagsaggiris"><input type="text" id="tcc" class="crsr"></div>
+                    <div class="sagsaggiris"><input type="text" id="numberr" class="crsr"></div>
+                </div>
+            </div>
+
+            <div class="sagalt">
+                <div class="sagaltdiv"><button onclick="save();" class="duzenle crsr"> Edit </button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ALT TARAF -->
+
+
+    <div id="list">
+        <div class="mainwhole">
+            <div class="mainlist">
+                <div class="leftbilgibeyaz"><label for="database">USERS</label></div>
+                <div class="right">
+                    <button onclick="exportTableToExcel('table-list', 'data')" id="exportButton">Export Table Data To
+                        Excel File</button>
+                    <div class="search"><input type="text" id="noandid" class="crsr" placeholder=" ID"></div>
+                    <div class="buton"><button class="btn" id="delete" onclick="deleteThisItem();">DELETE</button></div>
+                    <div class="buton " id="deleteal">
+                        <button class="btn crsr" id="deleteall" onclick="deleteRowAll();">DELETE ALL</button>
+                    </div>
+                </div>
+            </div><br>
+            <div class="bilgi bilgibeyaz"><label for="uyari">Enter ID of the data you want to delete</label></div>
+        </div>
+
+        <div class="bar">
+            <div class="barYazilar"> NO</div>
+            <div class="barYazilar">ID</div>
+            <div class="barYazilar">NAME</div>
+            <div class="barYazilar">SURNAME</div>
+            <div class="barYazilar">N.I.N</div>
+            <div class="barYazilar">PHONE</div>
+            <div class="barYazilar"></div>
+
+        </div>
+
+        <table id="table-list" style="width: 100%;"></table>
+
+    </div>
+
+    <script src="awebsite.js"></script>
+</body>
+
+</html>

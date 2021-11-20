@@ -1,0 +1,106 @@
+*{padding: 0px; margin:0px;box-sizing: border-box;overflow: auto;} html{ height: 100%;width: 100%;overflow: hidden;} body{ height: 100%;width: 100%}
+.ust{height: 10%; background-color: black; display:flex; justify-content: center; align-items: center;}
+.orta{ height: 55%;  background-color: #adadad; display: flex;justify-content: space-around;align-items: center;}
+
+.sol{ height: 85%;width: 40%;background-color: #e8e8e8; border-radius:2%;}
+.sag{  height: 85%;  width: 40%;  background-color: #333333;  border-radius: 2%;}
+
+.yazilar{  font-size: 20px; font-weight: bold; height: 25%;display: flex;justify-content: center; align-items: center;text-align: center;}
+.yazilar2{ font-size: 20px; font-weight: bold; height: 25%; display: flex; justify-content: center; align-items: center; color: white; text-align: center;}
+
+/* Sol Taraf */
+
+.solust{height: 20%; width: 100%;   background-color: #e8e8e8; display: flex; justify-content:space-between; 
+    align-items: flex-end; padding-left: 9%; padding-right:16%; padding-bottom: 2%;}
+#solustId{font-size: 20px; font-family: 'Times New Roman', Times, serif; font-weight: bold;}
+#cID{width: 17%; height: 40%; background-color: black; color: white; border-radius: 5px;}
+
+.solorta{height: 65%; display: flex; }
+.solsol{height: 100%; width: 20%;    background-color: #e8e8e8; display: flex; flex-direction: column;}
+.solsag{width: 80%; height: 100%;  background-color: #e8e8e8; display: flex; flex-direction: column; }
+.solsaggiris{height: 25%; width: 80%; display: flex; justify-content: center; align-items: center;}
+#name{height: 60%; width: 100%;}
+#surname{height: 60%; width: 100%;}
+#tc{height: 60%; width: 100%;}
+#number{height: 60%; width: 100%;}
+
+.solalt{height:15%; background-color: #e8e8e8; display: flex; flex-wrap: wrap; justify-content: flex-end; padding: 0% 1%;}
+.solaltyazi{font-weight: bold; font-size: 18px; margin-left: 5%;}
+.solaltdiv{width: 35%; display: flex; justify-content: flex-end;}
+.sendButton{width: 15%; height: 40%; background-color: black; color: white; border-radius: 5px; margin-right: 15%;}
+
+
+/* Sağ Taraf */
+.sagust{height: 20%; width: 100%;   background-color: #333333; display: flex; justify-content:space-between; 
+    align-items: flex-end; padding-left: 9%; padding-right:16%; padding-bottom: 2%;}
+#sagUstID{font-size: 20px; font-family: 'Times New Roman', Times, serif; color:white}
+.sagUstDiv{height: 60%; width: 50%; display: flex; align-items: flex-end; justify-content: flex-end;}
+.sagorta{height: 65%; display: flex;}
+.sagsol{height: 100%; width: 20%;    background-color: #333333; display: flex; flex-direction: column;}
+.sagsag{width: 80%; height: 100%;  background-color: #333333; display: flex; flex-direction: column; }
+.sagsaggiris{height: 25%; width: 80%; display: flex; justify-content: center; align-items: center;}
+#namee{height: 60%; width: 100%; }
+#surnamee{height: 60%; width: 100%;}
+#tcc{height: 60%; width: 100%;}
+#numberr{height: 60%; width: 100%;}
+.sagalt{height:15%; width: 84%;  background-color: #333333; display: flex; flex-wrap: wrap; justify-content: flex-end;}
+.sagaltdiv{width: 41%; display: flex; justify-content: flex-end;}
+.duzenle{width: 35%; height: 40%; background-color: black; color: white; border-radius: 5px;}
+
+/* ALT KISIM */
+
+.barYazilar{ display:flex; flex-wrap: wrap; justify-content: center; align-items: center; font-weight: bold; width: 14.27%; height: 100%;  color: white; font-size: 22px;
+     background-color:#333333;}
+.mainlist{display: flex; justify-content: space-between;}
+.mainlist .right{display: flex;}
+.mainwhole{ background-color:#E9542B;border-top-right-radius: 7px;border-top-left-radius: 7px;  width: 100%;padding: 0.5%;height: 29%; border: 3px solid black;}
+.mainlist .right input{ width: 100%;height: 30px;font-size: 12px;color: black;font-weight: bold; padding: 3px; border-radius: 2px; border-style: none;}
+.mainlist .right #deleteal button{ background-color: pink;}
+.mainlist .right .buton button{ padding: 3px;  font-size: 12px;  border-radius: 2px;  height: 30px;}
+.bilgibeyaz{ color: white;float: right;}
+.bilgibeyaz label{font-size: 15px; font-weight: bold;float: right;}
+.leftbilgibeyaz{font-size: 22px; font-weight: bold; color: aliceblue; padding-left: 1%;}
+#list{  background-color: #adadad;  height: 35%;  word-wrap: break-word;  width: 100%;  padding-left: 2%;  padding-right: 2%}
+.list-group{  display: flex;  flex-direction: column;  padding-left: 0; margin-bottom: 0; margin-top: 0;}
+#table-list{  font-family: arial, sans-serif;  border-collapse: collapse;  width: 100%; 
+    border-left: 3px solid black; border-right: 3px solid black;border-bottom: 3px solid black;  }
+#table-list tr{  display: flex;  justify-content: space-between;}
+#table-list tr:first-child{ background-color: lightgray;}
+#table-list td, th {display: flex; justify-content: center; padding: 8px;  width: 14.28%;  }
+#table-list tr{  background-color: #dddddd;  font-weight: bold; }
+#table-list  tr:nth-of-type(even) { background-color: #f3f3f3 ; color: #E9542B; font-weight: bold;}
+.list-group ul{  list-style-type: disc;  padding-inline-start: 40px;  padding-inline-end: 0px;  margin-inline-start: 0px;}
+.bilgi{ display: flex; justify-content: space-between;}
+.bar{ background-color:#333333; display: flex; justify-content: center; width: 100%; flex-wrap: wrap;
+    border-left: 3px solid black; border-right: 3px solid black;border-bottom: 3px solid black; height: 12%; align-items: center;}
+input[id="showId"]:disabled { background-color: white; height: 60%; width: 80%; color: black; font-weight: bold;}
+#delete.btn{border: none;border-radius: 5px;margin: 0px 10px;cursor: pointer; font-weight: bold;}
+#deleteall{border: none;border-radius: 5px;margin: 0px 10px;cursor: pointer; font-weight: bold;}
+.crsr{cursor: pointer;}
+#idData{font-weight: bold;}
+.picture{height: 60%; width: 20%;}
+#exportButton{margin-right: 5px; padding:0px 10px;  color: #089849; font-weight: bold; border: 1px solid #089849; border-radius: 5px; cursor: pointer;}
+
+@media screen and (max-width: 1200px) {
+.yazilar,.yazilar2{font-size: 17px;} .sol{width: 45%;} .sag{width: 45%;}
+#table-list td, th {font-size: 15px;}
+.barYazilar{font-size: 18px;}
+.picture{width: 25%; } #cID{font-size: 12px; height: 55%; width: 20%;}
+  }
+
+  
+@media screen and (max-width: 800px) {
+    .orta{
+        display: flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center;}
+        .sol,.sag{height: 45%; width: 80%;}
+        .orta{height: 60%;} .list{height: 30%;}
+        .sendButton{height: 60%;} .duzenle{height: 60%;}
+        .barYazilar{font-size: 13px;} .bilgibeyaz label{font-size: 13px;}
+        #delete.btn {font-size: 11px;} .mainlist .right #deleteal button {font-size: 11px;} .leftbilgibeyaz {font-size: 17px;}
+        .yazilar, .yazilar2{font-size: 15px;} 
+        input[id="showId"]:disabled {  height: 90%;} .mainlist .right input{width: 80%;}
+        .search{display: flex; justify-content: flex-end;} .picture{width: 40%; }
+      }
